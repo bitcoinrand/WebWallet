@@ -22,6 +22,7 @@
         <!-- End Bootstrap include stuff-->
         <title><?=$fullname?> Wallet</title>
         <link rel="shortcut icon" href="favicon.ico">
+        <script src='https://www.google.com/recaptcha/api.js'></script>
     </head>
     
     
@@ -34,7 +35,7 @@
 					<a class="navbar-brand" href="index.php"><?=$fullname?> Wallet</a>
 				</div>
 				<div class="nav navbar-nav navbar-right">
-					<div class="dropdown">
+					<div class="dropdown langselect">
 						<button class="btn btn-default navbar-btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
 							Language
 							<span class="caret"></span>
